@@ -1,0 +1,26 @@
+{
+  "name": "@indiethulhu/dandelion-workers-sync-router",
+  "version": "0.0.1",
+  "description": "Dandelion's Sync Router Worker",
+  "author": "Indiethulhu",
+  "private": true,
+  "type": "module",
+  "keywords": [
+    "dandelion",
+    "workers",
+    "sync-router",
+    "indiethulhu"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy",
+    "lint": "npx tsc --noEmit",
+    "preview": "wrangler preview"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "wrangler": "^4.7.2"
+  }
+}

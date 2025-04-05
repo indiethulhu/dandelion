@@ -1,0 +1,17 @@
+{
+    "name": "@indiethulhu/dandelion-cli",
+    "version": "0.0.1",
+    "description": "Dandelion's Command Line Interface (CLI)",
+    "author": "Indiethulhu",
+    "keywords": [
+        "dandelion",
+        "cli",
+        "indiethulhu"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "dev": "echo deving cli...",
+        "build": "echo building cli...",
+        "test": "echo testing cli..."
+    }
+}

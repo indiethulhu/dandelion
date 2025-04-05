@@ -1,0 +1,17 @@
+name = "dandelion-sync-receiver"
+main = "index.ts"
+compatibility_date = "2025-01-01"
+workers_dev = true
+
+# Development environment
+[dev]
+port = 8788
+local = true
+
+# Production environment
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# Staging environment
+[env.staging]
+vars = { ENVIRONMENT = "staging" }

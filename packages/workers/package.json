@@ -1,0 +1,17 @@
+{
+    "name": "@indiethulhu/dandelion-workers",
+    "version": "0.0.1",
+    "description": "Dandelion's Workers...",
+    "author": "Indiethulhu",
+    "keywords": [
+        "dandelion",
+        "workers",
+        "indiethulhu"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "dev": "echo deving workers...",
+        "build": "echo building workers...",
+        "test": "echo testing workers..."
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "lib": ["ES2022", "DOM"],
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "noEmit": true,
+      "types": [],
+      "baseUrl": ".",
+      "paths": {
+        "@indiethulhu/dandelion-core": ["packages/core/src"],
+        "@indiethulhu/dandelion-db": ["packages/db/src"],
+        "@indiethulhu/dandelion-workers": ["packages/workers/src"],
+        "@indiethulhu/dandelion-cli": ["packages/cli/src"],
+        "@indiethulhu/dandelion-durable-objects": ["packages/durable-objects/src"]
+      }
+    },
+    "exclude": ["node_modules", "dist", "build", "publish"]
+  }

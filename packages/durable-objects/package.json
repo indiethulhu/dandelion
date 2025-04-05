@@ -1,0 +1,17 @@
+{
+    "name": "@indiethulhu/dandelion-do",
+    "version": "0.0.1",
+    "description": "Dandelion's Durable Objects",
+    "author": "Indiethulhu",
+    "keywords": [
+        "dandelion",
+        "do",
+        "indiethulhu"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "dev": "echo deving do...",
+        "build": "echo building do...",
+        "test": "echo testing do..."
+    }
+}

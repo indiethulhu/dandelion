@@ -1,0 +1,17 @@
+{
+    "name": "@indiethulhu/dandelion-db",
+    "version": "0.0.1",
+    "description": "Dandelion's Database",
+    "author": "Indiethulhu",
+    "keywords": [
+        "dandelion",
+        "db",
+        "indiethulhu"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "dev": "echo deving db...",
+        "build": "echo building db...",
+        "test": "echo testing db..."
+    }
+}

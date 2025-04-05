@@ -1,0 +1,17 @@
+{
+    "name": "@indiethulhu/dandelion-core",
+    "version": "0.0.1",
+    "description": "Dandelion's Core Functionality",
+    "author": "Indiethulhu",
+    "keywords": [
+        "dandelion",
+        "core",
+        "indiethulhu"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "dev": "echo deving core...",
+        "build": "echo building core...",
+        "test": "echo testing core..."
+    }
+}

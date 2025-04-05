@@ -1,0 +1,9 @@
+{
+    "name": "@indiethulhu/dandelion-motherbase",
+    "version": "0.0.1",
+    "description": "Dandelion's Motherbase",
+    "author": "Indiethulhu",
+    "scripts": {
+        "build": "dotnet publish -c Release -o ./publish"
+    }
+}

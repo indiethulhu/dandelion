@@ -1,0 +1,28 @@
+services:
+  motherbase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: motherbase
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+      - ConnectionStrings__Postgres=Host=postgres;Port=5432;Username=postgres;Password=postgres;Database=motherbase
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16
+    container_name: postgres-dandelion
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: motherbase
+    ports:
+      - "5435:5435"
+    volumes:
+      - dandelion-pgdata:/var/lib/postgresql/data
+
+volumes:
+  dandelion-pgdata:

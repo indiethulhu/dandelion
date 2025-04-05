@@ -1,0 +1,23 @@
+{
+  "name": "@indiethulhu/dandelion-workers-version-router",
+  "version": "0.0.1",
+  "description": "Dandelion's Version Router Worker",
+  "author": "Indiethulhu",
+  "private": true,
+  "keywords": [
+    "dandelion",
+    "workers",
+    "version-router",
+    "indiethulhu"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "wrangler": "^4.7.2"
+  }
+}

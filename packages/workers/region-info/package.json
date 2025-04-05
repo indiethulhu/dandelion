@@ -1,0 +1,23 @@
+{
+  "name": "@indiethulhu/dandelion-workers-region-info",
+  "version": "0.0.1",
+  "description": "Dandelion's Region Info Worker",
+  "author": "Indiethulhu",
+  "private": true,
+  "keywords": [
+    "dandelion",
+    "workers",
+    "region-info",
+    "indiethulhu"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "wrangler": "^4.7.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@indiethulhu/dandelion-workers-sync-receiver",
+  "version": "0.0.1",
+  "description": "Dandelion's Sync Receiver Worker",
+  "author": "Indiethulhu",
+  "private": true,
+  "keywords": [
+    "dandelion",
+    "workers",
+    "sync-receiver",
+    "indiethulhu"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "wrangler": "^4.7.2"
+  }
+}

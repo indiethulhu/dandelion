@@ -1,0 +1,52 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Build outputs
+dist/
+build/
+.cache/
+.vite/
+.next/
+out/
+
+# dotenv
+.env
+.env.*
+
+# Turborepo
+turbo/
+.cache
+
+# VSCode
+.vscode/
+.idea/
+
+# Python (if any sneaks in)
+__pycache__/
+*.py[cod]
+*.venv/
+.venv/
+
+# Mac quirks
+Icon?
+ehthumbs.db
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.tgz
+*.gz
